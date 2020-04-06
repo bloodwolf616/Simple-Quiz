@@ -1,0 +1,112 @@
+
+/*------------------------------------------------------------------------
+
+element styles
+
+------------------------------------------------------------------------*/
+body {
+background-color: rgb(255, 243, 230);
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------
+
+class styles
+
+---------------------------------------------------------------------------*/
+
+
+/*styles the answers green if right and red if wrong*/
+.right {
+
+  padding: 2px;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.wrong {
+
+  padding: 2px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+/*----------------------------------------------------*/
+
+.headline {
+  text-align: center;
+  letter-spacing: 5px;
+  border: 4px dashed rgb(51, 102, 0);
+  border-radius: 5px;
+}
+
+.greyHover{
+  background-color: rgba(142, 142, 142, 0.4);
+}
+
+
+
+
+.close {
+  font-size: 30px;
+}
+
+.form-container {
+  border:2px solid rgb(55, 174, 114);
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  margin: 0 auto;
+  z-index: 1
+}
+
+.form {
+  width: 200px;
+  height: 200px;
+}
+
+.form-container:hover {
+background-color: rgb(192, 196, 192);
+}
+
+.form label {
+  display: block;
+}
+
+/*--------------------------------------------------------------------------------
+
+id styles
+
+----------------------------------------------------------------------------------*/
+
+
+#myButton {
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
+
+
+/*modal styles*/
+#myModal {
+  width: 30%;
+  height: 30%;
+  border: 2px solid blue;
+  display: none;
+  position: fixed;
+  right: 30%;
+  top: 30%;
+  z-index: 1;
+  background-color: white;
+}
+
+#message {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(55, 174, 114);
+}
